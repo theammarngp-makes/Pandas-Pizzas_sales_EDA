@@ -34,19 +34,25 @@ Using Python (Pandas), I performed data cleaning and analysis to find trends, re
 	
 # Insights
 ## Q1.Retrive the total no of orders placed 
+```
 Total order placed = 48620
-
+```
 ## Q2.Claculate total revenue from pizza sales
+```
 Total revenue from pizza sales = 817860.0499999999$
-
+```
 ## Q3.Identify highest price of pizza
+```
 Highest price of pizza = 35.95
-
+```
 ## Q4.Identify most common pizza size 
+```
 Most common pizza size = XXL
+```
 
 ## Q5.List top 5 most order pizzas with quantity
-Top 5 most ordered pizzas:
+### Top 5 most ordered pizzas:
+```
 name
 The Classic Deluxe Pizza      2453
 The Barbecue Chicken Pizza    2432
@@ -54,8 +60,10 @@ The Hawaiian Pizza            2422
 The Pepperoni Pizza           2418
 The Thai Chicken Pizza        2371
 Name: quantity, dtype: int64
+```
 
 ## Q6.Find total quantity of each pizza ordered 
+```
 name
 The Classic Deluxe Pizza                      2453
 The Barbecue Chicken Pizza                    2432
@@ -90,8 +98,9 @@ The Calabrese Pizza                            937
 The Mediterranean Pizza                        934
 The Brie Carre Pizza                           490
 Name: quantity, dtype: int64
-
+```
 ## Q7.Determine the disrtibution of orders by hrs of the day
+```
 hrs
 12    6543
 13    6203
@@ -109,19 +118,24 @@ hrs
 10      17
 9        4
 Name: order_id, dtype: int64
+```
 
 ## Q8.JOIN relevent table to find the category wise ditribution of pizzas 
-category
+```category
 Chicken    23.955138
 Classic    26.905960
 Supreme    25.456311
 Veggie     23.682591
 Name: Total, dtype: float64
+```
 
 ## Q9.Group the orders by date and calculate the average number of pizzas ordered per day
+```
 138.47486033519553
+```
 
 ## Q10.Identify the day of the week with highest number of orders
+```
 weekday
 Friday       16.786812
 Monday       16.851868
@@ -131,15 +145,19 @@ Thursday     16.868565
 Tuesday      16.901199
 Wednesday    16.832191
 Name: Total, dtype: float64
+```
 
 ## Q11.Calculate the percentage contribution of each pizza type to total revenue
+```
 category
 Chicken    23.955138
 Classic    26.905960
 Supreme    25.456311
 Veggie     23.682591
+```
 
 ## Q12.Analyze the cumulative revenue generated over time
+```
 time
 2025-11-24 09:52:21        83.00
 2025-11-24 10:25:19        95.50
@@ -152,9 +170,11 @@ time
 2025-11-24 23:05:17    817766.05
 2025-11-24 23:05:24    817827.55
 2025-11-24 23:05:52    817860.05
+```
 
  ## Q13.Determine the top 3 most ordered pizza types based on revenue for each pizza category.
-    category                                        name     Total
+```
+	category                                        name     Total
 5   Chicken                      The Thai Chicken Pizza  43434.25
 4   Chicken                 The Southwest Chicken Pizza  34705.75
 3   Chicken                     The Chicken Pesto Pizza  16701.75
@@ -167,7 +187,8 @@ time
 31   Veggie           The Vegetables + Vegetables Pizza  24374.75
 30   Veggie                  The Spinach and Feta Pizza  23271.25
 29   Veggie                     The Spinach Pesto Pizza  15596.00
-mohammadammar@Mac Pan
+```
+
   
 Mohammad Ammar
 Aspirant Data Scientist | ENTC Engineer
